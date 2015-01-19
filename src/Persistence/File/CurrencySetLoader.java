@@ -17,7 +17,7 @@ public class CurrencySetLoader implements Persistence.CurrencySetLoader{
         String aux = "";
         int pos = 0;
         try {
-            FileReader file = new FileReader("C:\\Users\\AYTO_AGAETE\\Desktop\\IS2\\Divisas.csv");
+            FileReader file = new FileReader("C:\\Users\\hobdur\\Desktop\\IS2\\Divisas.csv");
             int value = file.read();
             while(value != -1){
                 if(((char)value) == ';' || ((char)value) == '\n'){

@@ -18,7 +18,7 @@ public class ExchangeRateLoader implements Persistence.ExchangeRateLoader{
     @Override
     public ExchangeRate load(Currency in, Currency out) {
         try {
-            reader = new FileReader("C:\\Users\\AYTO_AGAETE\\Desktop\\IS2\\Rate.csv");
+            reader = new FileReader("C:\\Users\\hobdur\\Desktop\\IS2\\Rate.csv");
             BufferedReader br = new BufferedReader(reader);
             line = br.readLine();
             while(line != null){
